@@ -10,9 +10,15 @@ def get_clients():
     """
     
     from_file = [
-       "10;Яловичина;25,5",
-       "20;Свинина;26,5",
-       "30;Сало;15,0"
+       "1;Масло",
+       "2;Сир_твердий",
+       "3;Молоко",
+       "4;Сир",
+       "5;Маргарин",
+       "6;М'ясо",
+       "7;Ковбаса",
+       "8;Фарш_м'ясний",
+       "9;М'ясо_кістки"
     ]
  
      # накопичувач
@@ -31,7 +37,7 @@ def show_dovidnik(dovidnik):
         dovidnik (list): список довідника
     """
     for dovidnik in dovidnik:
-        print("код: {} назва: {} адреса: {}".format(dovidnik[0], dovidnik[1], dovidnik[2]))
+        print("код: {2} назва: {Сир_твердий}".format(dovidnik[0], dovidnik[1], dovidnik[2]))
     
 dovidnik = get_clients()
     
