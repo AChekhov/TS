@@ -36,8 +36,12 @@ def show_dovidnik(dovidnik):
     Args:
         dovidnik (list): список довідника
     """
-    for dovidnik in dovidnik:
-        print("код: {2} назва: {Сир_твердий}".format(dovidnik[0], dovidnik[1], dovidnik[2]))
+
+dovidnik_code_frome = input("З якого код товару")
+dovidnik_code_to    = input("По який код товару")
+
+for tovar in dovidnik:
+        print("код: {:2} назва: {:Сир_твердий}".format(dovidnik[0], dovidnik[1]))
     
 dovidnik = get_clients()
     
